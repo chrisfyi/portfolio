@@ -8,16 +8,15 @@ const About = () => {
     <div id='about' className='w-full md:h-screen p-2 flex items-center py-16'>
         <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
             <div className='col-span-2'>
-                <p className='uppercase text-xl tracking-widest text-[#FFD700]'>About</p>
+                <p className='uppercase text-xl tracking-widest text-[#B3995D]'>About</p>
                 <h2 className='py-4'>Who I Am</h2>
-                <p className='py-2 text-gray-700'>Enter bio here...</p>
+                <p className='py-2 text-gray-700'>I appreciate you being here!</p>
                 
-                <p className= 'py-2 text-gray-700'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <p className= 'py-2 text-gray-700'>I am a Developer. A few years ago I received a certificate of completion from Fullstack Academy by way of Cal Poly Pomona. This was a rigorous program where I learned fullstack development languages such as Javascript, React, Node and more. I have used the education I received to create fluid and robust fullstack web applications. Up next I intend to put my skills to use in either front-end, back-end or fullstack development. My project portfolio demonstrates a mix of technologies as well as my own creative touch. I have a particular interest in building fluid and responsive front-end applications. I love to learn, am easy to work with, and I work tirelessly to ensure my work is quality material. I look forward to hearing from you!</p>
                 
-                <p className='py-2 text-gray-700'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
             </div>
             <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-               <Image src={snowday} />
+               <Image src={snowday} alt='about pic' />
             </div>
         </div>
     </div>

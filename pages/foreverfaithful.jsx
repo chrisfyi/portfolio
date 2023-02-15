@@ -1,11 +1,11 @@
 /* eslint-disable react/no-unescaped-entities */
 import Image from 'next/legacy/image'
 import React from 'react'
-import youtube from '../public/assets/projects/youtube.png'
-import {RiRadioButtonFill, RiReactjsFill} from 'react-icons/ri'
+import niners from '../public/assets/projects/niners.png'
+import {RiRadioButtonFill} from 'react-icons/ri'
 
 import {FaReact, FaCss3Alt } from 'react-icons/fa'
-import { SiTailwindcss, SiFirebase } from 'react-icons/si'
+import { SiTailwindcss, SiTypescript, SiVercel } from 'react-icons/si'
 import { AiTwotoneApi } from 'react-icons/ai'
 import Link from 'next/link'
 
@@ -15,10 +15,10 @@ const youtubeclone = () => {
     <div className='w-full'>
         <div className='w-screen h-[30vh] lg:h-[40vh] relative '>
            <div className='absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10' />    
-            <Image className='absolute z-1' layout='fill' objectFit='cover' src={youtube} alt='/' />
+            <Image className='absolute z-1' layout='fill' objectFit='cover' src={niners} alt='/' />
             <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-                <h2 className='py-2'>Youtube Clone</h2>
-                <h3>React JS / CSS / Firebase / Axios </h3>
+                <h2 className='py-2'>49ver Faithful</h2>
+                <h3>Typescript / Tailwind CSS / Sanity io / Vercel </h3>
             </div>
         </div>
 
@@ -26,7 +26,7 @@ const youtubeclone = () => {
             <div className='col-span-4'>
                 <p>Project</p>
                 <h2>Overview</h2>
-                <p>A fully functional Youtube clone that allows you to search and play videos from Youtube. Built with React, styled with Material UI and made Axios calls to the RapidApi database. Served and Hosted on firebase..</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                 <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
                 <button className='px-8 py-2 mt-4 '>Code</button>
             </div>
@@ -34,25 +34,21 @@ const youtubeclone = () => {
                 <div className='p-2'>
                     <p>Technologies</p>
                     <div className='grid grid-cols-3 md:grid-cols-1'>
-                        <p className='text-gray-600 py-2 flex items-center'>
-                         <FaReact
-                         className='pr-1 w-6 h-6' /> React 
-                        </p>
-                        <p className='text-gray-600 py-2 flex items-center'>
-                         <FaCss3Alt
-                         className='pr-1 w-6 h-6' /> CSS 
+                        <p className='text-blackgit py-2 flex items-center'>
+                         <SiTypescript
+                         className='pr-1 w-6 h-6 text-[#B3995D]' /> Typescript
                         </p>
                         <p className='text-gray-600 py-2 flex items-center'>
                          <SiTailwindcss
-                         className='pr-1 w-6 h-6' /> Tailwind 
+                         className='pr-1 w-6 h-6 text-[#B3995D]' /> Tailwind CSS 
                         </p>
                         <p className='text-gray-600 py-2 flex items-center'>
-                         <SiFirebase
-                         className='pr-1 w-6 h-6' /> Firebase 
+                         <RiRadioButtonFill
+                         className='pr-1 w-6 h-6 text-[#B3995D]' /> Sanity io 
                         </p>
                         <p className='text-gray-600 py-2 flex items-center'>
-                         <AiTwotoneApi
-                         className='pr-1 w-6 h-6' /> Rapid API
+                         <SiVercel
+                         className='pr-1 w-6 h-6 text-[#B3995D]' /> Vercel
                         </p>
                     </div>
                 </div>

@@ -15,6 +15,7 @@ const NavBar = () => {
     const [navBg, setNavBg] = useState('#ecf0f3')
     const [linkColor, setLinkColor] = useState('#1f2937')
     const [logoColor, setLogoColor] = useState(cjd)
+    const [burgerColor, setBurgerColor] = useState('black')
     const router = useRouter();
 
     useEffect(() =>{
@@ -26,10 +27,12 @@ const NavBar = () => {
             setNavBg('transparent')
             setLinkColor('#ecf0f3')
             setLogoColor(cjdWhite)
+            setBurgerColor('white')
         } else {
             setNavBg('#ecf0f3')
             setLinkColor('#1f2937')
             setLogoColor(cjd)
+            setBurgerColor('black')
         }
     }, [router])
 
@@ -84,11 +87,11 @@ const NavBar = () => {
                     </Link>
                 </ul>
                 <div onClick={handleNav} className='md:hidden cursor-pointer'>
-                    <AiOutlineMenu size={25} />
+                    <AiOutlineMenu size={25} color={burgerColor} />
                 </div>
             </div>
         </div>
-
+{/* NAV */}
         <div className={nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70' : ''}>
             <div className={
                 nav 
@@ -129,7 +132,7 @@ const NavBar = () => {
                         </Link>
                     </ul>
                     <div className='pt-40'>
-                        <p className='uppercase tracking-widest text-[#5651e5]'>Let's Connect</p>
+                        <p className='uppercase tracking-widest text-[#B3995D]'>Let's Connect</p>
                         <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                             <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                                 <a target="_blank" href="https://linkedin.com/in/chrisj117" rel="noopener noreferrer">

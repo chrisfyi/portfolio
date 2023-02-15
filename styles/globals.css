@@ -29,6 +29,6 @@ html {
   }
 
   button {
-    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-black text-[#FFD700]
+    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-black text-[#B3995D]
   }
 }

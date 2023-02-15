@@ -28,7 +28,7 @@ const Main = () => {
                 <p className='uppercase text-sm tracking-widest text-gray-600'>Lets Build Something Together</p>
                 <h1 className='py-4 text-gray-800 font-semibold px-10'>
                     <span className='mr-3'>{text}</span>
-                    <Cursor cursorColor='#FFD700' />
+                    <Cursor cursorColor='#B3995D' />
                 </h1>
                
                 
@@ -37,17 +37,17 @@ const Main = () => {
                 </p>
                 <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
              
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-black text-[#FFD700] '>
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-black text-[#B3995D] '>
                         <a target="_blank" href="https://linkedin.com/in/chrisj117" rel="noopener noreferrer">
                             <FaLinkedinIn /> 
                         </a>
                     </div>
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-black text-[#FFD700]'>
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-black text-[#B3995D]'>
                         <a target="_blank" href="https://github.com/chrisfyi" rel="noopener noreferrer">
                             <FaGithub /> 
                         </a> 
                     </div>
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-black text-[#FFD700]'>
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-black text-[#B3995D]'>
                         <a href={`mailto:chrisfyi@hotmail.com`}>
                             <AiOutlineMail /> 
                         </a>
