@@ -10,7 +10,7 @@ const About = () => {
             <div className='col-span-2'>
                 <p className='uppercase text-xl tracking-widest text-[#B3995D]'>About</p>
                 <h2 className='py-4'>Who I Am</h2>
-                <p className='py-2 text-gray-700'>I appreciate you being here!</p>
+                <p className='py-2 text-gray-700'>Hello, Im Chris. I appreciate you being here!</p>
                 
                 <p className= 'py-2 text-gray-700'>I am a Developer. A few years ago I received a certificate of completion from Fullstack Academy by way of Cal Poly Pomona. This was a rigorous program where I learned fullstack development languages such as Javascript, React, Node and more. I have used the education I received to create fluid and robust fullstack web applications. Up next I intend to put my skills to use in either front-end, back-end or fullstack development. My project portfolio demonstrates a mix of technologies as well as my own creative touch. I have a particular interest in building fluid and responsive front-end applications. I have a great understanding of SQL and have worked with Epress and Node a great deal. I love to learn, am easy to work with, and I work tirelessly to ensure my work is quality material. I look forward to hearing from you!</p>
                 
