@@ -1,8 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
 import React, {useState, useEffect} from 'react'
 import Image from 'next/image'
-import cjd from '/Users/chrisfyi/Desktop/Portfolio/portfolio-23/public/assets/cjd.png'
-import cjdWhite from '/Users/chrisfyi/Desktop/Portfolio/portfolio-23/public/assets/CJD-white.png'
+import cjd from '../public/assets/cjd.png'
+import cjdWhite from '../public/assets/CJD-white.png'
 import Link from 'next/link'
 import { AiOutlineClose , AiOutlineMail, AiOutlineMenu} from 'react-icons/ai'
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa'

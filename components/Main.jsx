@@ -2,7 +2,7 @@
 import React from 'react'
 import { Cursor, useTypewriter } from 'react-simple-typewriter'
 import Image from 'next/image'
-import icon from '/Users/chrisfyi/Desktop/Portfolio/portfolio-23/public/assets/icon.jpeg'
+import icon from '../public/assets/icon.jpeg'
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa'
 import { AiOutlineMail } from 'react-icons/ai'
 import ParticlesComponent from './Particles'
@@ -33,7 +33,7 @@ const Main = () => {
                
                 
                 <p className='py-4 text-gray-600 max-w-[70%] m-auto'>
-                    I'm a front-end web developer specializing in building fluid and robust web applications. Currently, I'm focused on building responsive front-end web applications as I continue to refine my back-end tech skills.
+                    I'm a front-end web developer specializing in building fluid and robust web applications. Currently, I'm focused on building responsive front-end web applications with React and TypeScript and have an intermediate understanding of back-end technologies like Node, Express and SQL.
                 </p>
                 <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
              
