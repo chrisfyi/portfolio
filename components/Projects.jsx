@@ -4,7 +4,7 @@ import Link from 'next/link'
 import React from 'react'
 import netflix from '../public/assets/projects/netflix.png'
 import youtube from '../public/assets/projects/youtube.png'
-import newsocial from '../public/assets/projects/newsocial.png'
+import newsocial from '../public/assets/projects/newsocial4.png'
 import niners from '../public/assets/projects/niners.png'
 
 import ProjectItem from './ProjectItem'

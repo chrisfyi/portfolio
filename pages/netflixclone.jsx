@@ -5,7 +5,7 @@ import netflixBanner from '../public/assets/projects/netflixbanner.jpg'
 import {RiRadioButtonFill, RiReactjsFill} from 'react-icons/ri'
 
 import {FaReact, FaCss3Alt } from 'react-icons/fa'
-import { SiTailwindcss, SiFirebase } from 'react-icons/si'
+import { SiRedux, SiFirebase } from 'react-icons/si'
 import { AiTwotoneApi } from 'react-icons/ai'
 import Link from 'next/link'
 
@@ -51,6 +51,10 @@ const netflixclone = () => {
                         <p className='text-black py-2 flex items-center'>
                          <FaCss3Alt
                          className='pr-1 w-6 h-6 text-[#B3995D]' /> CSS 
+                        </p>
+                        <p className='text-black py-2 flex items-center'>
+                         <SiRedux
+                         className='pr-1 w-6 h-6 text-[#B3995D]' /> Redux 
                         </p>
                         <p className='text-black py-2 flex items-center'>
                          <SiFirebase
