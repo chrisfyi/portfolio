@@ -33,7 +33,7 @@ const Main = () => {
                
                 
                 <p className='py-4 text-gray-600 max-w-[70%] m-auto'>
-                    I'm a front-end web developer specializing in building fluid and robust web applications. Currently, I'm focused on building responsive front-end web applications with React and TypeScript and have an intermediate understanding of back-end technologies like Node, Express and SQL.
+                    I'm a front-end web developer specializing in building fluid, robust web applications and have an intermediate understanding of back-end technologies like Node, Express and SQL. Currently, I'm focused on building responsive front-end web applications with React and TypeScript. 
                 </p>
                 <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
              
