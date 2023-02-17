@@ -25,7 +25,7 @@ const NavBar = () => {
            router.asPath === '/newsocial'
         ) {
             setNavBg('transparent')
-            setLinkColor('#ecf0f3')
+            setLinkColor('white')
             setLogoColor(cjdWhite)
             setBurgerColor('white')
         } else {
@@ -42,11 +42,21 @@ const NavBar = () => {
     }
 
     useEffect(() => {
+        
         const handleShadow = () => {
-            if(window.scrollY >= 90) {
+            if(window.scrollY >= 250) {
                 setShadow(true)
+                setNavBg('#ecf0f3')
+                setLinkColor('#1f2937')
+                setLogoColor(cjd)
+                setBurgerColor('black')
+                
             } else {
                 setShadow(false);
+                setNavBg('transparent')
+                setLinkColor('white')
+                setLogoColor(cjdWhite)
+                setBurgerColor('white')
             }
         };
         window.addEventListener('scroll', handleShadow);

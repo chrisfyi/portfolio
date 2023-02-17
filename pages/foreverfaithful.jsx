@@ -15,7 +15,7 @@ import niner3 from '../public/assets/projects/niners3.png'
 import niner4 from '../public/assets/projects/niners4.png'
 
 
-const youtubeclone = () => {
+const foreverFaithful = () => {
   return (
     <div className='w-full'>
         <div className='w-screen h-[30vh] lg:h-[40vh] relative '>
@@ -31,7 +31,7 @@ const youtubeclone = () => {
             <div className='col-span-4'>
                 <p>Project</p>
                 <h2>Overview</h2>
-                <p>A 49ers focused blog built with TypeScript and styled with Tailwind CSS. I implented the Sanity io NextJS tool to create the blog and used the Studio to manage the content. The Sanity io CMS makes it really easy to add other users as admins to create content and dynamically update the site. I deployed this project using Vercel.</p>
+                <p>A 49ers focused blog built with TypeScript and styled with Tailwind CSS. I implemented the Sanity io NextJS tool to create the blog and used the Studio to manage the content. The Sanity io CMS makes it really easy to add other users as admins to create content and dynamically update the site. I deployed this project using Vercel.</p>
                 <Link href='https://49verfaithful-chrisfyi.vercel.app'>
                 <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
                 </Link>
@@ -78,4 +78,4 @@ const youtubeclone = () => {
   )
 }
 
-export default youtubeclone
+export default foreverFaithful
